@@ -1,0 +1,12 @@
+command:
+  name: "size"
+  description: "change size"
+  aliases: ["si", "s"]
+
+messages:
+  success:
+    with_target: "§aYou have successfully changed {target}'s size ({size})"
+    without_target: "§aYou have successfully changed size ({size})"
+  target_not_exists: "§cThis player does not exist!"
+  sender_not_player: "§cYou cannot execute this command in the console!"
+  sender_no_permission: "§cYou do not have permission to execute this command!"

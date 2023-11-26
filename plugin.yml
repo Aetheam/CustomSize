@@ -1,0 +1,9 @@
+name: CustomSize
+version: 1.0.0
+author: ShadowMikado
+main: ShadowMikado\CustomSize\Main
+api: [5.0.0]
+
+permissions:
+  size.cmd:
+    default: op
